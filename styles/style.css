@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 214.5px 121.67999999999999px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 214.5 121.67999999999999" width="214.5" height="121.67999999999999" style="opacity: 0.2; filter: grayscale(0.6);"><text x="0em" y="1em" font-size="39" transform="rotate(15 24.375 23.4)">😄</text><text x="1.375em" y="2.3em" font-size="39" transform="rotate(15 78 74.1)">😎</text><text x="2.75em" y="1em" font-size="39" transform="rotate(15 131.625 23.4)">🤔</text><text x="4.125em" y="2.3em" font-size="39" transform="rotate(15 185.25 74.1)">🤗</text></svg>');
+    color: #183153;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+main {
+    height: 70%;
+    width: 30%;
+    background-color: rgb(255, 255, 255) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(39, 39, 39, 0.75);
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main div form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .w-50 {
+        width: 80% !important;
+    }
+    main {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .w-50 {
+        width: 80% !important;
+    }
+    main {
+        width: 80% !important;
+    }
+}
+
+
